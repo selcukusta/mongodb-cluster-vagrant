@@ -15,7 +15,7 @@ MASTER_HOSTNAME = "master01"
 REPLICA_IP_PATTERN = "172.81.81."
 REPLICA_COUNT = 2
 REPLICA_PREFIX = "replica0"
-START_REPLICATION_SCRIPT_FILE = "/usr/local/mongo-4.0.2/start-replication.js"
+START_REPLICATION_SCRIPT_FILE = "/tmp/start-replication.js"
 
 $script = <<-SCRIPT
 echo $4$'\t'$5 >> /etc/hosts
